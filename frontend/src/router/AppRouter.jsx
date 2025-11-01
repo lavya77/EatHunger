@@ -7,6 +7,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import {jwtDecode} from "jwt-decode";
+import Navbar from "../components/Navbar";
 
 /* -------------------------
    Lazy-loaded pages
@@ -63,6 +64,7 @@ function RoleRoute({ children, allowed = [], redirectTo = "/" }) {
 export default function AppRouter() {
   return (
     <BrowserRouter>
+    <Navbar />
       <Suspense fallback={<div>Loading…</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
