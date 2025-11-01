@@ -9,7 +9,7 @@ export default function Home() {
       <div className="grid grid-cols-1 p-10 w-full h-full ">
         <div className="text-left p-2 ">
          <p className="text-7xl md:text-5xl font-extrabold text-[black drop-shadow-lg">
-             Share <span className="text-orange-300"> Food</span> Share <span className="text-red-500"> Love</span>
+             Share <span className="text-orange-400"> Food</span> Share <span className="text-red-500"> Love</span>
     </p>
         </div>
   <div className="text-left bg-[#4CBB17] w-full h-196 rounded-xl p-8 p">
