@@ -64,7 +64,7 @@ function RoleRoute({ children, allowed = [], redirectTo = "/" }) {
 export default function AppRouter() {
   return (
     <BrowserRouter>
-    
+    <Navbar />
       <Suspense fallback={<div>Loading…</div>}>
         <Routes>
           <Route path="/" element={<Home />} />

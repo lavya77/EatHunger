@@ -2,7 +2,7 @@
 
 export default function EatHungerHero() {
   return (
-    <section className="w-full flex justify-center py-14 bg-[#4CBB17]]">
+   <section className="w-full min-h-screen flex justify-center items-center bg-[#4CBB17] py-10">
         
       {/* MAIN CARD */}
       <div className="w-[94%] md:w-[90%] lg:w-[82%] bg-black rounded-3xl shadow-2xl overflow-hidden relative z-10">

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-<nav class="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-blur-lg text-white px-10 py-4 flex justify-between items-center border-b border-green-500">
+<nav class=" top-0 left-0 w-full z-50 bg-green-900 backdrop-blur-lg text-white px-10 py-4 flex justify-between items-center border-b border-green-500">
  <Link
   to=""
-  className="text-2xl font-extrabold tracking-wider text-green-400 hover:text-green-500 transition duration-300"
+  className="text-2xl font-extrabold tracking-wider text-white hover:text-green-500 transition duration-300"
 >
   EatHunger
 </Link>
