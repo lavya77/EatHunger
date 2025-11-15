@@ -7,6 +7,10 @@ import AboutSection from "../components/AboutSection";
 import ImpactSection from "../components/ImpactSection";
 import HowWeWork from "../components/HowWeWork";
 import FeaturedStories from "../components/FeaturedStories";
+import DonationOptions from "../components/DonationOptions";
+import Gallery from "../components/Gallery";
+import TestimonialsSection from "../components/TestimonialSection";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -35,6 +39,23 @@ export default function Home() {
  <section className="relative w-full bg-white overflow-hidden flex items-center justify-center px-4">
   <FeaturedStories />
 </section>
+
+ <section className="relative w-full bg-white overflow-hidden flex items-center justify-center px-4">
+  <DonationOptions />
+</section>
+
+ <section className="relative w-full bg-white overflow-hidden flex items-center justify-center px-4">
+  <Gallery />
+</section>
+
+<section className="relative w-full bg-white overflow-hidden flex items-center justify-center px-4">
+  <TestimonialsSection/>
+</section>
+
+<section className="relative w-full bg-white overflow-hidden flex items-center justify-center px-4">
+  <Footer/>
+</section>
+
     </body>
    </>
   );

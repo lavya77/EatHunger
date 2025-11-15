@@ -44,7 +44,7 @@ export default function EatHungerStories() {
   ];
 
   return (
-    <section className="w-full bg-[#8DB600] py-24 px-6 font-sans">
+    <section className="w-full bg-[#8DB600] rounded-2xl py-24 px-6 font-sans">
       <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row gap-10">
         {/* Featured Story */}
         <motion.div
